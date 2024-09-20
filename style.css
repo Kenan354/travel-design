@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 86.6%;
+    margin: auto;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #fff 0% 4%, #ff000056 4% 24%,#fff 24% 28%, #ff000056 28% 48%,#fff 48% 52%, #ff000056 52% 72%,#fff 72% 76%, #ff000056 76% 96%, #fff 96% 100%);
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+ .menu, .login-signup{
+    display: none;
+}
+#menutoggler{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #5D50C6;
+    border: none;
+    font-size:30px;
+    color: #fff;
+}
+.logo img{
+    width: 150px;
+}
+.login, .signup{
+    width: 115px;
+    height: 49px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+}
+.login{
+    color: #222831;
+}
+
+.signup{
+    background-color: #5D50C6;
+    color: #EEEEEE;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    column-gap: 15px; 
+}
+.sekiller{
+    display: flex;  
+    justify-content: center;
+}
+.explore button{
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color:rgb(164, 56, 74);
+    opacity: 90%;
+}
+.traveled{
+     width: 100%;
+}
+.explore{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.exp_haq{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.haqq{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.btnc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px; 
+}
+.btnc button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 30px;
+}
+ .yaz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+    column-gap: 35px;
+}
+.srv {
+    font-family: "Merriweather", serif;
+    }
+
+.service{
+    margin-top: 80px;
+    display: flex;
+    color: rgb(164, 56, 74);
+    font-size: 13px;
+    width: 100%;
+}
+.our{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.cards{
+    width: 100%;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 220px;
+    margin-top: 40px;
+}
+.card{
+    width: 120px;
+    height: 250px;
+    margin-top: 20px;
+}
+.imag{
+      display: flex;
+      justify-content: center;
+}
+.imgh h1{
+    
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.imgh p{   
+    margin-top: 20px;
+    text-align: center;
+}
+.dest{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.dest h3{
+    margin-top:40px;
+    color:rgba(248, 94, 159, 1);
+    font-size: 23px;
+}
+.dest h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.btnt{
+    display: flex;
+    justify-content: space-between;
+}
+.btnt button{
+    margin-top: 70px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.btnt i{
+    font-size: 10px;
+    padding:20px;
+}
+.btnt .btnr{
+    background-color: rgba(93, 80, 198, 1);
+    color: #fff;
+}
+.cardsi{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    column-gap: 260px;
+}
+.cardi{
+    margin-top: 40px;
+    width: 220px;
+    height: 450px;
+    background-color:white;
+}
+.imagei img{
+    width: 220px;
+    height: 200px;
+}
+.imagei h5{
+    padding: 12px 25px;
+    font-size: 23px;
+    color: rgba(248, 94, 159, 1);
+}
+.imagei h2{
+    padding: 12px 25px;
+    font-size: 23px;
+}
+.imagei p{
+    padding: 12px 25px;
+    font-size: 18px;
+}
+.imagei h3{
+    color: rgba(255, 87, 34, 1);
+    gap: 8px;
+    padding: 12px 25px;
+
+}
+.travelle{
+   text-align: center;
+}
+
+
+.travelle h5{
+   margin-top: 50px;
+   color: rgba(248, 94, 159, 1);
+
+}
+.travelle h2{
+    margin-top: 20px;
+    column-gap: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+.travelle p{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+}
+.sayi{
+    display: flex;
+    justify-content: center;
+}
+.sayi nav h1{
+    color: rgba(255, 87, 34, 1);
+    text-align: center;
+}
+.sayi p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sayi2{
+    display: flex;
+    justify-content: center;
+}
+.sayi2 nav h1{
+    color: rgba(255, 87, 34, 1);
+    margin-top: 10px;
+    text-align: center;
+}
+.sayi2 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sayi3{
+    display: flex;
+    justify-content: center;
+}
+.sayi3 nav h1{
+    color: rgba(255, 87, 34, 1);
+    margin-top: 10px;
+    text-align: center;
+}
+.sayi3 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sayi4{
+    display: flex;
+    justify-content: center;
+}
+.sayi4 nav h1{
+    color: rgba(255, 87, 34, 1);
+    margin-top: 10px;
+    text-align: center;
+}
+.sayi4 p{
+    text-align: center;
+    margin-top: 10px;
+}
+nav{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.paraimg{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.key{
+    text-align: center;
+}
+.key h5{
+    margin-top: 60px;
+    font-size: 16px;
+    color: rgba(248, 94, 159, 1);
+
+}
+.key h2{
+    margin-top: 12px;
+    font-size: 38px;
+}
+.key p{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+}
+.localbtn{
+    margin-left: 12px;
+}
+.localbtn button{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #FF5722;
+}
+.localbtn button i{
+  font-size: 48px;
+  color: #ffff;
+}
+.localhq{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.localhq p{
+    margin-top: 10px;
+    color: rgba(25, 24, 37, 0.5);
+    width: 200px;
+}
+.calendarbtn{
+    margin-left: 12px;
+}
+.calendarbtn button{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color:  rgba(250, 205, 73, 1);
+
+}
+.calendarbtn button i{
+  font-size: 48px;
+  color: #ffff;
+}
+.calendarhq{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.calendarhq p{
+    margin-top: 10px;
+    color: rgba(25, 24, 37, 0.5);
+    width: 150px;
+}
+.ticketbtn{
+    margin-left: 12px;
+}
+.ticketbtn button{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color:  rgba(248, 94, 159, 1);
+}
+.ticketbtn button i{
+  font-size: 48px;
+  color: #ffff;
+}
+.tickethq{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.tickethq p{
+    margin-top: 10px;
+    color: rgba(25, 24, 37, 0.5);
+    width: 150px;
+}
+
+.testimon{
+    text-align: center;
+}
+.testimon h5{
+    color: rgba(248, 94, 159, 1);
+    font-size: 16px;
+}
+.testimon h2{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.testimage{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.testiparlaq{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.yildiz{
+    margin-top: 10px;
+    display: flex;
+   gap:10px;
+    justify-content: center;
+}
+.yildiz i{
+    color: rgba(250, 205, 73, 1);
+    
+}
+.testihq{
+    font-size: 18px;
+    color: rgba(25, 24, 37, 0.75);
+    width: 100%;
+}
+.testihq p{
+    margin-top: 40px;
+    text-align: center;
+}
+.page{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.kicik{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: pink;
+}
+.kicik2{
+    margin-left: 15px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgba(248, 94, 159, 1);;
+}
+.kicik3{
+    margin-left: 15px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: pink;
+}
+.testbtn{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.testbtn button{
+    margin-top: 70px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.testbtn i{
+    font-size: 10px;
+    padding:20px;
+}
+.testbtn .btnr{
+    background-color: rgba(93, 80, 198, 1);
+
+}
+
+.subsciped{
+    margin-top: 30px;
+    text-align: center;
+}
+.subsciped h5{
+    font-size: 16px;
+    color: rgba(248, 94, 159, 1);
+    padding: 20px;
+    font-family: Circular Std;
+    font-weight: 700px;
+    line-height: 19.2px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+.subsciped h3{
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+}
+.email{
+      gap: 32px;
+}
+.email .you{
+    margin-top: 60px;
+    padding: 24px 32px;
+    gap: 16px;
+    border-radius: 16px;
+    opacity: 80%;
+    background-color: rgba(244, 236, 236, 0.964);
+    display:flex ;
+   
+}
+.email h6{
+    font-size: 14px;
+    opacity: 100%;
+    color: rgba(25, 24, 37, 0.75);
+}
+.email button{
+    margin-top: 60px;
+    width: 100%;
+    gap: 16px;
+    border-radius: 16px;
+    background-color: rgba(93, 80, 198, 1);
+    padding: 15px 32px;
+    color: #fff;
+}
+.tra{
+    margin-top: 70px;
+}
+.trahq{
+margin-top:30px;
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 25.6px;
+text-align: left;
+}
+.trasosial{
+    margin-top: 20px;
+    gap: 32px;
+}
+
+.trasosial button{
+   row-gap: 30px;
+   width: 32px;
+   height: 32px;
+   opacity: 0px;
+border-radius: 50%;   
+}
+.trasosial .a{
+    margin-left: 25px;
+    background: rgba(93, 80, 198, 1);
+    color: rgba(241, 242, 242, 1);
+}
+.trasosial .b{
+    margin-left: 25px;
+    background: rgba(93, 80, 198, 1);
+    color: rgba(241, 242, 242, 1);
+}
+.trasosial .c{
+    background: rgba(93, 80, 198, 1);
+    color: rgba(241, 242, 242, 1);
+
+}
+.trason{
+    margin-top: 30px;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+.company button{
+    border-radius: 50%;
+    font-size: 7px;
+    padding: 7px;
+}
+.contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact button{
+    border-radius: 50%;
+    font-size: 7px;
+    padding: 7px;
+}
+.meet{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.meet button{
+    border-radius: 50%;
+    font-size: 7px;
+    padding: 7px;
+}
+.meet p{
+    display: none;
+}
+.contact p{
+    display: none;
+}
+.company p{
+    display: none;
+}
+@media (min-width: 576px){
+    .login-signup{
+        display: block;
+        order: 3;
+    }
+    .menu-btn{
+        order: 1;
+    }
+    .logo{
+        order: 2
+    }
+    body{
+        background-image: linear-gradient(to right bottom, #ff000040 0% 10%,#fff 40% 100%);
+    }
+    .exp_haq h1{
+        text-align: center;
+    }
+    .haqq{
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+    }
+    .btnc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px; 
+    }
+    .btnc button {
+        padding: 14px 24px;
+    }
+    .yaz{
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        column-gap: 81px;
+        
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 40px;
+
+    }
+    .btnt{
+        display: flex;
+        justify-content: flex-end;
+        gap:20px
+    }
+    .cardsi{
+        flex-wrap: wrap;
+        column-gap: 120px;
+    }
+    .sayilar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .local{
+        display: flex;
+    }
+    .calendar{
+        display: flex;
+    }
+    .ticket{
+        display: flex;
+    }
+    .email{
+        display: flex;
+    }
+    .email .you{
+        padding: 10px 160px;
+    }
+    .email button{
+       padding: 10px 20px;
+    }
+    .testbtn {
+        position: relative;
+    left: 0;
+    top: -330px;
+    }
+     .company button{
+        display: none;
+     }
+     .contact button{
+        display: none;
+     }
+     .meet button{
+        display: none;
+     }
+     .trason{
+        display: flex;
+        justify-content:space-between;
+     }
+     .company{
+        margin-top: 40px;
+        display: block;
+     }
+     .company p{
+        margin-top: 10px;
+        flex-direction: column;
+        display: block;
+     }
+     .contact{
+        display: block;
+     }
+     .contact p{
+        display: block;
+        margin-top: 10px;
+        flex-direction: column;
+     }
+     .meet{
+        display: block;
+     }
+     .meet p{
+        display: block;
+        margin-top: 10px;
+        flex-direction: column;
+     }
+     
+}
+@media (min-width: 768px){
+        .menu-btn{
+            display: none;
+        }
+        .login-signup{
+        
+        }
+        .logo{
+            order: 1;
+        }
+        .menu{
+            display: block;
+            order: 2;
+        }
+        body{
+            background-image: linear-gradient(to right, #fff 0% 4%, #ff000056 4% 24%,#fff 24% 28%, #ff000056 28% 48%,#fff 48% 52%, #ff000056 52% 72%,#fff 72% 76%, #ff000056 76% 96%, #fff 96% 100%);
+            background-repeat: no-repeat;
+        }
+        .tam{
+            justify-content: space-between;
+            display: flex;
+        }
+        .umumi{
+            order:2;
+        }
+        .traveled{
+            width: 30%;
+            order: 1;
+        }
+        .explore{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .exp_haq{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 25px;
+            padding: 20px;
+            align-items: start !important;
+        }
+        .srv{
+            display: flex;
+        }
+        .hissee{
+            margin-top: 30px;
+            display: flex;
+        }
+        .service{
+            margin-top: 80px;
+            display: flex;
+            color: rgb(164, 56, 74);
+            font-size: 13px;
+            width: 100%;
+        }
+        .karusel{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .dest{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: start !important;
+        }
+        .paradiseon{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .key{
+            width: 100% !important; 
+
+        }
+        .paraimg{
+            width: 30% !important;
+        }
+        .paraimg img{
+            margin-top: 30px;
+            height: 100%;
+           
+        }
+        .local{
+            width: 30% !important;
+        }
+        .calendar{
+            width: 30% !important;
+        }
+        .ticket{
+            width: 30% !important;
+        }
+        .applica{
+            width: 30% !important;
+        }
+        .ima{
+            
+            width: 65% !important;
+        }
+        .ima img{
+            width: 100%;
+        }
+        .sayilar{
+            width: 35% !important;
+        }
+        .saylar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%; 
+            height: 65%;
+        }
+        .sayi{
+            width: 40% !important;
+            height: 40% !important;
+        }
+        .sayi2{
+            width: 40% !important;
+            height: 40% !important;
+        }
+        .sayi3{
+            width: 40% !important;
+            height: 40% !important;
+        }
+        .sayi4{
+            width: 40% !important;
+            height: 40% !important;
+        }
+        .sonluq{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .sonu{
+            width: 50% !important;
+        }
+        .trason{
+            width: 50% !important;
+        }
+        .trahq p{
+           width: 55% !important;    
+        }
+        .company{
+            width: 20% !important;
+        }
+        .company p{
+            padding: 10px;
+        }
+        .contact{
+            width: 20% !important;
+        }
+        .contact p{
+           padding: 5px;
+        }
+        .meet{
+            width: 20% !important; 
+        }
+        .meet p{
+            padding: 5px;
+        }
+        .email{
+            display: flex;
+            justify-content: center;
+        }
+        .you{
+            width: 40%;
+        }
+        .email button{
+            width: 15%;
+        }
+    }
